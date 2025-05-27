@@ -9,7 +9,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'; // âœ
 
 
 const App = () => (
-  <GoogleOAuthProvider clientId="279136439919-v4hrnqqvqfol2ufpe51g5da6po7el5hf.apps.googleusercontent.com">
+  <GoogleOAuthProvider clientId="google-client-ID">
     <Router>
       <Routes>
         <Route path="/" element={<Login />} />         {/* âœ… Login route */}
